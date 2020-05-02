@@ -1,0 +1,183 @@
+/* 全体設定 */
+a{
+    text-decoration: none;
+}
+
+/* ヘッダー */
+header{
+    background-color: rgba(34,49,52,0.9);
+    opacity: 0.9;
+    height:65px;    
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index: 10;
+}
+
+.header-container{
+    max-width:1170px;
+    width:100%;
+    margin:0 auto;
+}
+
+.header-icon{
+    float:left;
+    width:124px;
+    padding-top:20px;
+}
+
+.header-login{
+    float: right;
+    color:white;
+    background-color: rgba(255,255,255,0.3);
+    padding:0 25px;
+    line-height: 65px;
+}
+.header-login:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.menu-bar{
+    color:white;
+    font-size:25px;
+    float;right;
+    margin-top:21px;
+    display: none;
+}
+
+/* トップ画面 */
+.top{
+    background-image:url(https://prog-8.com/images/html/advanced/top.png);
+    background-size:cover;
+}
+
+.top-container{
+    max-width:1170px;
+    width:100%;
+    margin: 0 auto;
+    padding-top:180px;
+    padding-bottom:100px;
+    text-align: center;
+}
+
+.top-container h1{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:white;
+    opacity: 0.7;
+}
+.top-container p{
+    color:white;
+    opacity:0.7;
+}
+
+.btn{
+    display: inline-block;
+    padding:8px 24px;
+    border-radius: 5px;
+    color:white;
+    opacity:0.8;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.signon{
+    background-color: #239b76;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.fa{
+    margin-right:5px;
+}
+.facebook{
+    background-color: #3b5998;
+    margin-right:10px;
+    margin-top:15px;
+}
+.twitter{
+    background-color: #55acee;
+    margin-top:15px;
+}
+
+/* レッスン一覧 */
+.main{
+    background-color: #f7f7f7;
+    height:580px;
+}
+
+.main-container{
+    max-width:1170px;
+    width: 100%;
+    margin:0 auto;
+    padding-top:80px;
+}
+
+.main h3{
+    color:#5f5d60;
+    text-align: center;
+    font-weight: normal;
+}
+
+.lesson{
+    width:25%;
+    float:left;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.lesson h4{
+    color:white;
+    position: absolute;
+    top:120px;
+    width:100%;
+}
+
+.lesson p{
+    display: inline-block;
+    color:#b3aeb5;
+    font-size:13px;
+    width:80%;
+    margin-top: 15px;
+}
+
+/* メッセージ欄 */
+.message{
+    text-align: center;
+    padding:80px 0;
+    color:#5f5d60;
+}
+
+.btn-start{
+    display: inline-block;
+    margin-top: 50px;
+    padding:15px 40px;
+    background-color: #5dca88;
+    color: white;
+    opacity: 0.8;
+    box-shadow: 0 7px #1a7940;
+    border-radius: 4px;
+}
+.btn-start:active{
+    box-shadow: none;
+    position: relative;
+    top:7px;
+}
+
+/* フッター */
+footer{
+    border-top:7px solid #eee;
+}
+
+.footer-container{
+    width:1170px;
+    margin:0 auto;
+    padding:30px 0;
+    font-size: 12px;
+    color:#b3aeb5;
+}
+
+.footer-logo{
+    width:124px
+}
